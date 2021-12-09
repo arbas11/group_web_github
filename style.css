@@ -5,7 +5,6 @@
 }
 
 .alert-style{
-    background-color: darkgrey;
     border-radius: 20px;
     margin: 5px 10px;
     text-align: center;
@@ -19,11 +18,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     border-style: none;  
-    background-color: palevioletred;
 }
 .alert-style-upload{
-    background-color: pink;
-    color: palevioletred;
     border-radius: 20px;
     margin: 5px 10px;
     text-align: center;
@@ -96,7 +92,6 @@
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #577BC1;
     border-style: none;
 }
 .item-btn-modal{
