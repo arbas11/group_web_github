@@ -18,81 +18,83 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- Modal Detail Product-->
-<div class="modal fade container-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 id="mdl-title" class="modal-title" id="exampleModalLabel"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div id="mdl-img" class="container img-modal-container">
+
+<body>
+    <!-- Modal Detail Product-->
+    <div class="modal fade container-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="mdl-title" class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="item-footer item-footer-modal">
-                    <p id="mdl-detail"></p><br>
-                    <span id="mdl-price" class="price-tag"></span>
+                <div class="modal-body">
+                    <div id="mdl-img" class="container img-modal-container">
+                    </div>
+                    <div class="item-footer item-footer-modal">
+                        <p id="mdl-detail"></p><br>
+                        <span id="mdl-price" class="price-tag"></span>
+                    </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="item-btn item-btn-modal btn btn-primary">Contact Artist</button>
+                <div class="modal-footer">
+                    <button type="button" class="item-btn item-btn-modal btn btn-primary">Contact Artist</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Modal upload -->
-<div class="modal fade container-modal" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="upload-container modal-content">
-            <div class="modal-header">
-                <h5 id="mdl-title" class="modal-title" id="uploadModalLabel">Start sell your Collection:</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="form-group">
-                        <form id="upload" class="form-label-style">
-                            <label for="name">Artist name</label>
-                            <input id="artistUpload"
-                                class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
-                                name="Name">
-                            <label for="title">Your art title</label>
-                            <input id="titleUpload"
-                                class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
-                                name="title">
-                            <label for="image">Your painting image URL</label>
-                            <input id="imageUpload"
-                                class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
-                                name="image">
-                            <label for="price">Name your price</label>
-                            <input id="priceUpload"
-                                class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
-                                name="price">
-                            <label for="desc">Short Description About your Art</label>
-                            <input id="descUpload" class="form-input col-lg-7 form-style form-style-uploas form-control"
-                                type="text" name="desc">
-                            <button class="item-btn btn btn-primary">upload</button>
-                        </form>
+    <!-- Modal upload -->
+    <div class="modal fade container-modal" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="upload-container modal-content">
+                <div class="modal-header">
+                    <h5 id="mdl-title" class="modal-title" id="uploadModalLabel">Start sell your Collection:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="form-group">
+                            <form id="upload" class="form-label-style">
+                                <label for="name">Artist name</label>
+                                <input id="artistUpload"
+                                    class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
+                                    name="Name">
+                                <label for="title">Your art title</label>
+                                <input id="titleUpload"
+                                    class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
+                                    name="title">
+                                <label for="image">Your painting image URL</label>
+                                <input id="imageUpload"
+                                    class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
+                                    name="image">
+                                <label for="price">Name your price</label>
+                                <input id="priceUpload"
+                                    class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
+                                    name="price">
+                                <label for="desc">Short Description About your Art</label>
+                                <input id="descUpload"
+                                    class="form-input col-lg-7 form-style form-style-uploas form-control" type="text"
+                                    name="desc">
+                                <button class="item-btn btn btn-primary">upload</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="alert-container">
-    <div class="alert-style-upload alert">
-        <h2>An Artist? Sell Your Collection here</h2>
-        <!-- Button trigger modal upload -->
-        <button type="button" class="btn btn-danger btn-upload" data-bs-toggle="modal" data-bs-target="#uploadModal">
-            upload
-        </button>
+    <div class="alert-container">
+        <div class="alert-style-upload alert">
+            <h2>An Artist? Sell Your Collection here</h2>
+            <!-- Button trigger modal upload -->
+            <button type="button" class="btn btn-danger btn-upload" data-bs-toggle="modal"
+                data-bs-target="#uploadModal">
+                upload
+            </button>
+        </div>
+
     </div>
-
-</div>
-
-<body>
     <section id="main-section" class="main-content row">
         <div class="item-card card col-lg-3 col-md-4 col-sm-6 col-xs-6">
             <div class="item-header">
