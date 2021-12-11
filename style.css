@@ -1,0 +1,113 @@
+.modal-footer{
+    border-top-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.alert-style{
+    border-radius: 20px;
+    margin: 5px 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-upload{
+    width: 5em;
+    padding: 1px 6px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;  
+}
+.alert-style-upload{
+    border-radius: 20px;
+    margin: 5px 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+}
+.item-card{
+    border-radius: 20px;
+    padding: 0 5px;
+    border-style: none;
+    margin: 30px 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item-header{
+    text-align: center;
+    display: inline;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.item-images{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1 solid black;
+    box-shadow: 3px 3px 19px -6px rgba(0,0,0,1);
+    -webkit-box-shadow: 3px 3px 19px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 3px 19px -6px rgba(0,0,0,1);
+}
+.item-footer{
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    font-size: 0.8em;
+    font-family: 'Nunito', sans-serif;
+
+}
+.img-modal-container{
+    display: flex;
+    justify-content: center;
+}
+.modal-content{
+    border-radius: 20px;
+}
+.item-footer-modal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 30px;
+}
+.item-btn{
+    width: 5em;
+    padding: 1px 6px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+}
+.item-btn-modal{
+    width: 10em;
+}
+.upload-button{
+    margin-bottom: 40px;
+}
+.upload-container{
+    background-color: rgb(255, 255, 244);
+    padding: 50px;
+}
+.form-style{
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.form-label-style{
+    margin-top: 20px;
+}
