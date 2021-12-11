@@ -12,7 +12,7 @@ function detail(num, str) {
     mdlDetail.innerHTML = str;
     mdlPrice.innerHTML = price.innerHTML;
 }
-
+//upload logic
 let idNum = 10;
 const uploadForm = document.getElementById('upload');
 uploadForm.addEventListener('submit', function (e) {
